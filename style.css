@@ -1,0 +1,110 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Alexandria', sans-serif;
+    }
+
+ * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    }
+
+#corner{
+    border-radius: 20px ;  
+    background-color: rgba(0,0,0,0.4);
+    margin: 1% 12% 1% 12%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+/* ----------- Header -----------  */
+header{
+    text-align: center;
+    color: rgb(0,221,1);
+    }
+
+    header img{
+    width: 250px;
+    }
+
+    header h1{
+    margin: 7px;
+    }
+
+/* ----------- Menù ----------- */
+nav{
+    text-align: center;
+    background-color: rgb(0,221,1);
+    border-radius: 1px;
+    padding: 10px;
+    margin: 0% 20% 1% 20%;
+    }
+
+    nav button{
+    padding: 4px;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    background-color: white;
+    }
+
+    nav button:hover{
+    background-color: rgb(225, 255, 76);
+}    
+
+
+/* -----------  Monopattini -----------  */
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    }
+
+    main h2{ 
+    display: inline-block;
+    }
+
+    main div{
+    margin-bottom: 50px;
+    }
+
+.via:before{
+    font-size: 18px;
+    content:  "\21A6";
+    }
+
+.via, h2{
+    margin: 5px;
+    }
+
+
+     /* ||Batterie monopattini|| */
+
+    .battery{
+        border-radius: 5px; 
+        border-color: rgba(0,0,0,0); 
+        height: 25px;
+    }
+
+    .battery-green{
+        background-color: rgb(0, 227, 0);  
+        width: 100%;
+    }
+
+    .battery-yellow{
+        background-color: rgb(255, 226, 64); 
+        width: 50%;
+    }
+
+    .battery-red{
+        background-color: rgb(252, 49, 49);
+        width: 20%;
+    }
+
+
+
+
+
+
